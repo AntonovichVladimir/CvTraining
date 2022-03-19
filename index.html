@@ -129,13 +129,11 @@
                <h3 class="title code-example__title">Code example</h3>
                <pre class="code-example__item">
                   <code class="code-example__code">
-      function multiply(a, b){
-
-      return a * b 
-      }
-                              
-      const math = multiply(4, 5)
-      console.log(math)
+      function capitalizeWord(word) {
+      return word[0].toUpperCase() + word.slice(1);
+      };
+      let nameCountry = capitalizeWord('belarus');
+      console.log(nameCountry);
                   </code>
                </pre>
             </section>
@@ -143,7 +141,7 @@
       </main>
       <footer class="footer">
          <a class="footer__github-link" href="https://github.com/AntonovichVladimir" target="_blank">
-            <img class="footer__gihub-img" src="img/github.svg" alt="gihub-logo" width="50px" height="50px">
+            <img class="footer__gihub-img" src="img/github.svg" alt="gihub-logo" width="50" height="50">
             <p class="footer__github-text"> Visit my GitHub</p>
 
          </a>
